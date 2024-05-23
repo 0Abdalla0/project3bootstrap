@@ -1,0 +1,162 @@
+.bodybgcolor
+{
+    background-color:#C1AA7F ;
+}
+.darkback
+{
+    background-color: #24282B;
+    color:#F9F8F3;
+}
+.brownback
+{
+    background-color: #74512D;
+    color:#F9F8F3;
+    
+}
+.textcolor
+{
+    color:#F9F8F3;
+}
+.lightbg
+{
+    background-color: #C1AA7F;
+    color: #24282B;
+}
+.carousel-caption
+{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+.aftereffect::after
+{
+    width: ;
+}
+.bgimg
+{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.blockimg
+{
+    display: block;
+    max-width: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.bgimg
+{
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: #24282B;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+    .box1
+    {
+        background-image: url(../imges/p6img1.jpg);
+        height: 500px;
+         width: 300px;
+         transition: 0.5s;
+    }
+    .box1:hover 
+    {
+        background-color: #233f67;
+        height: 350px;
+        width: 100px;
+
+    }
+    .box2
+    {
+        background-image: url(../imges/p6img2.jpg);
+        height: 500px;
+        width: 300px;
+        transition: 0.5s;
+    }
+    .box2:hover 
+    {
+        background-color: #233f67;
+        height: 350px;
+        width: 100px;
+
+    }
+    .box3
+    {
+        background-image: url(../imges/p6img3.png);
+        height: 500px;
+        width: 300px;
+        transition: 0.5s;
+    }
+    .box3:hover
+    {
+        background-color: #233f67;
+        height: 350px;
+        width: 100px;
+    }
+
+.line{
+    height: 7px;
+    width: 100px;
+    transition: 0.5s;
+ }
+ .p7-box1:hover .line,.p7-box2:hover .line,.p7-box3:hover .line,.p7-box4:hover .line
+  {
+     height: 10px;
+     width: 200px;
+ }
+  .p7-box1 .btn1:hover
+ {
+    background-color: #74512D;
+ }
+ .p7-box2 .btn1:hover
+ {
+    background-color:#24282B;
+ }
+ .p7-box3 .btn1:hover
+ {
+    background-color:black;
+ }
+ .p7-box4 .btn1:hover
+ {
+    background-color:#C1AA7F;
+ } 
+
+ .card1 {
+    position: relative; 
+    transition: 0.7s;
+    padding: 20px;
+
+}
+
+.card1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    transition: all 0.3s ease-in-out; 
+}
+.card1::before {
+    content: "";
+    position: absolute; 
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out; 
+}
+
+.card1:hover::after {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 521px; 
+    width: 415px;
+}
+.card1:hover::before {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 521px; 
+    width: 415px;
+}
